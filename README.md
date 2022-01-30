@@ -6,7 +6,7 @@ A primary wave is drawn as the summation of each line added to the page.
 
 To use, click "CREATE WAVE," then drag the sliders to change the wave shape.
 
-The project can be found on [codepen.io](https://codepen.io/aholmes/full/gBNbKN)!
+The project can be found on [codepen.io](https://codepen.io/aholmes/full/gBNbKN). I've also created [a fork](https://codepen.io/aholmes/full/wvPKyyp) that can automatically animate!
 
 Here's what the app looks like with a few waves:
 
