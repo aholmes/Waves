@@ -10,7 +10,7 @@ The project can be found on [codepen.io](https://codepen.io/aholmes/full/gBNbKN)
 
 Here's what the app looks like with a few waves:
 
-![](img.app.png)
+![](img/app.png)
 
 This project was inspired by the "wave puzzle" in Myst IV: Revelation.
 
