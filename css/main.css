@@ -289,31 +289,68 @@ textarea {
 /*
  * Application CSS
  */
-
 body {
-    padding:0;
-    margin:20px;
+    padding: 0;
 }
 
 #display {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
 }
 
 #controls {
-    width:100%;
+    width: 100%;
+}
+
+#controls button {
+    display: block;
+    padding: 5px;
+    width: auto;
+    margin: 0 auto;
+    box-shadow: inset -0.5em -0.5em 0 -0.35em rgba(0, 0, 0, 0.17);
 }
 
 #createwave {
-    width:100%;
+    width: 100%;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.wave {
-    width:100%;
+#controls .wave-close {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    padding: 0;
+    box-shadow: none;
+}
+#controls .wave-close:after {
+    content: "x";
+    color: #000;
+    font-weight: 300;
+    font-family: Arial, sans-serif;
+}
+#controls .wave-close + div {
+    display: inline-block;
+    width: calc(100% - 15px);
 }
 
-.wave input[type=range] {
-    width:100%;
+.wave {
+    width: 100%;
+}
+
+.wave input[type="range"] {
+    width: 100%;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+p span {
+    display: inline-block;
+    min-width: 80px;
 }
