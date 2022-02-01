@@ -2,28 +2,22 @@
 <html class="no-js" lang="">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <script src="js/vendor/pixi-6.2.2.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
-
 <body>
-  <div id="controls">
-      <button id="createwave" type="button">Create wave</button>
-  </div>
-  <div id="display"></div>
-  <script src="js/main.js"></script>
+    <div id="controls">
+        <button id="createwave" type="button">Create wave</button>
+        <button id="togglewaves" type="button" data-show-text="Show control waves" data-hide-text="Hide control waves">Hide control waves</button>
+        <button id="toggleanimation" type="button" data-stop-text="Stop animation" data-start-text="Start animation">Stop animation</button>
+        
+        <div id="waves"></div>
+    </div>
+    <div id="display"></div>
 </body>
 
 </html>

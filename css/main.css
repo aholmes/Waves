@@ -293,6 +293,10 @@ body {
     padding: 0;
 }
 
+canvas {
+    display: block;
+}
+
 #display {
     width: 100%;
     height: 100%;
@@ -300,18 +304,12 @@ body {
 
 #controls {
     width: 100%;
+    text-align: center;
 }
 
 #controls button {
-    display: block;
     padding: 5px;
-    width: auto;
-    margin: 0 auto;
     box-shadow: inset -0.5em -0.5em 0 -0.35em rgba(0, 0, 0, 0.17);
-}
-
-#createwave {
-    width: 100%;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -332,6 +330,10 @@ body {
 #controls .wave-close + div {
     display: inline-block;
     width: calc(100% - 15px);
+}
+#waves {
+    max-height: 135px;
+    overflow: auto;
 }
 
 .wave {
